@@ -1,0 +1,39 @@
+.why-we-container{
+    margin: 50px 10% 100px 10%;
+    .title{
+        color: white;
+        background-color: turquoise;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 30px 30px;
+        border-radius: 50px;
+        margin: 30px 20%;
+    }
+    .info{
+        margin: 40px 10%;
+    }
+    .photos{
+        display: flex;
+        font-size: 24px;
+        font-weight: bold;
+        justify-content: space-between;
+        align-items: center;
+        margin:50px 0;
+        img{
+            width: 100px;
+        }
+    }
+}
+@media screen and (max-width:768px){
+    .why-we-container{
+       margin: 10px;
+       .photos{
+        flex-direction: column;
+        gap: 50px;
+        img{
+            width: 200px;
+        }
+       }
+    }
+}

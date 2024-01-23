@@ -1,0 +1,30 @@
+.education-method-container{
+    margin: 50px 10%;
+    .title{
+        color: white;
+        background-color: turquoise;
+        text-align: center;
+        margin: 50px 15%;
+        padding: 30px 30px;
+        border-radius: 50px;
+        
+    }
+    p{
+        margin-bottom: 50px;
+    }
+    img{
+        width: 355px;
+        height: 250px;
+        border: 2px solid white;
+    }
+}
+@media screen and (max-width:768px) {
+    .education-method-container{
+        .title{
+            font-size: 20px;
+            
+        }
+        
+    
+    }
+}
