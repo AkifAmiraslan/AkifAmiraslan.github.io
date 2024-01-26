@@ -1,20 +1,16 @@
 /* eslint-disable react/prop-types */
-import './styles.scss'
-function Blog(props){
-    return(
+import { Link } from 'react-router-dom';
+
+function Blog({ id, imgSrc, title, text }) {
+    return (
         <div className="blog">
-            <img src={props.imgSrc} alt="" />
-
-            <h4 className="blog-title">
-                {props.title}
-            </h4>
-
-            <p className="blog-text">
-                {props.text}
-            </p>
-
-            
+            <Link to={`/blogs/${id}`}> {/* Link componenti eklenmiştir */}
+                <img src={imgSrc} alt={title} />
+                <h2>{title}</h2>
+                <p>{text}</p>
+            </Link>
         </div>
-    )
+    );
 }
+
 export default Blog;

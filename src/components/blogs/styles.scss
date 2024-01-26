@@ -14,6 +14,7 @@
         justify-content: center;
         align-items:center;
         flex-wrap: wrap;
+        gap: 30px;
         .blog{
             width: 310px;
             display: flex;
@@ -32,6 +33,13 @@
             &-text, &-title{
                 font-size: 14px;
             }
+        }
+    }
+}
+@media screen and (max-width:768px){
+    .blogs-container{
+        .title{
+            margin:30px 10%;
         }
     }
 }
