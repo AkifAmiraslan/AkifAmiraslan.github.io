@@ -19,6 +19,7 @@ function BlogDetailPage() {
                 {sampleBlogData.text}
             </p>
             <img src={sampleBlogData.imgSrc} alt="" style={{ width: "500px" }}/>
+            salam
         </div>
     );
 }
