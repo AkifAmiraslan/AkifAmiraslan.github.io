@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Blog({ id, imgSrc, title, text }) {
     return (
         <div className="blog">
-            <Link to={`/blogs/${id}`}> {/* Link componenti eklenmiştir */}
+            <Link to={`/blogs/${id}`}> 
                 <img src={imgSrc} alt={title} />
                 <h2>{title}</h2>
                 <p>{text}</p>

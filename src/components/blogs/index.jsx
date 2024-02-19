@@ -30,7 +30,7 @@ function Blogs(){
                 Bloqlar
             </h1>
             <div className="blogs">
-                {renderBlogs(8)} {/* 8 ədəd blogu burada render edirik */}
+                {renderBlogs(8)} 
             </div>
         </div>
     );

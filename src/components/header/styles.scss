@@ -76,6 +76,12 @@
         .nav-1{
             flex-direction: column;
             gap: 20px;
+            .phone-mail-section{
+                flex-direction: column;
+                .phone-call{
+                    justify-content: center;
+                }
+            }
         }
         .nav-2 {
             flex-direction: column;

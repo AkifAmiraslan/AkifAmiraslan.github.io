@@ -23,15 +23,34 @@
             justify-content: center;
             align-items: center;
             text-align: center;
-            border: 1px solid gray;
             border-radius: 5px;
             padding: 5px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+            box-shadow: 0 4px 8px rgba(100, 89, 89, 0.8);
+            h2{
+                font-size: 24px;
+                font-weight: 500;
+            }
+            p{
+                letter-spacing: 1.5px;
+            }
+            &:hover{
+                transition: 0.3s;
+                background-color:turquoise;
+                
+                *{
+                    color:white;
+                }
+                
+            }
             img{
                 width: 300px;
             }
             &-text, &-title{
                 font-size: 14px;
+            }
+            *{
+                text-decoration: none;
+                color:black;
             }
         }
     }

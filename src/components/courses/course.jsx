@@ -21,10 +21,8 @@ function Course(props){
                         <img src={plusIcon} alt="" onClick={handleImageClick} />
                     )
                 }
-
-                  
-               
             </div>
+            
             {infoVisible && (
                 <div className="course-info">
                     <p>{props.info}</p>

@@ -64,23 +64,23 @@ function Header(){
 
                 <div className={`links ${isMenuOpen ? 'show-links' : ''}`}>
 
-                    <Link to='/' className='link'>
+                    <Link to='/' className='link' onClick={toggleMenu}>
                         Ana səhifə
                     </Link>
 
-                    <Link to='/courses'className='link'>
+                    <Link to='/courses'className='link' onClick={toggleMenu}>
                         Xidmətlərimiz
                     </Link>
 
-                    <Link to='./aboutus' className='link'>
+                    <Link to='./aboutus' className='link' onClick={toggleMenu}>
                         Haqqımızda
                     </Link>
 
-                    <Link to='./blogs' className='link'>
+                    <Link to='./blogs' className='link' onClick={toggleMenu}>
                         Bloqlar
                     </Link>
 
-                    <Link className='link'>
+                    <Link className='link' onClick={toggleMenu}>
                         Əlaqə
                     </Link>
                 </div>
