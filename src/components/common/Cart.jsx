@@ -2,7 +2,8 @@
 import { useState } from "react";
 import plusIcon from '../../assets/images/+icon.svg'
 import close from "../../assets/images/close-menu.svg"
-function Course(props){
+import './cart.scss'
+function Cart(props){
     const [infoVisible, setInfoVisible] = useState(false);
 
     const handleImageClick = () => {
@@ -10,8 +11,8 @@ function Course(props){
     };
 
     return(
-        <div className="course">
-            <div className="course-title">
+        <div className="cart">
+            <div className="cart-title">
                 <h3>{props.title}</h3>
                 {
                     infoVisible?(
@@ -24,7 +25,7 @@ function Course(props){
             </div>
             
             {infoVisible && (
-                <div className="course-info">
+                <div className="cart-info">
                     <p>{props.info}</p>
                 </div>
             )}
@@ -32,4 +33,4 @@ function Course(props){
     );
 }
 
-export default Course;
+export default Cart;

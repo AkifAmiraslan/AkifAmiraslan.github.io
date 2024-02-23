@@ -1,10 +1,14 @@
 import nextRight from '../../assets/images/next-right.svg'
-import Course from './course';
+import Course from '../common/cart';
 import coursesData from '../../data/coursesData';
 import './styles.scss'
+import { useEffect } from 'react';
 
 
 function Courses(){
+    useEffect(() => {
+        window.scroll(0,0)
+    },[])
     return(
         <div className="courses-container">
             <div className="title">

@@ -1,5 +1,6 @@
 import callIcn from '../../assets/images/phoneCall-logo.svg'
 import gmailIcn from '../../assets/images/mail-logo.svg'
+import { Link } from 'react-router-dom'
 import './styles.scss'
 function Footer(){
     return(
@@ -18,17 +19,19 @@ function Footer(){
                 </div>
 
                 <div className='links'>
-                    <div>Kurslar</div>
-                    <div>Bloqlar</div>
-                    <div>Əlaqə</div>
+                    <Link to="/courses">Kurslar</Link>
+                    <Link to='/blogs'>Bloqlar</Link>
+                    <Link to='/contact'>Əlaqə</Link>
                 </div>
                 
             </div>
 
             <div className='footer-contact'>
-                <button className='questions-btn'>
-                    Tez-tez verilən suallar
-                </button>
+                <Link to='/faq'>
+                    <button className='faq-btn'>
+                        Tez-tez verilən suallar
+                    </button>
+                </Link>
 
                 <div className='location'>
                     <img src="" alt="" />

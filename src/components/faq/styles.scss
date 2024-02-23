@@ -1,0 +1,33 @@
+.faq-container{
+    margin: 20px 0 50px 0;
+    h1{
+        color: white;
+        background-color: turquoise;
+        text-align: center;
+        font-weight: bold;
+        padding: 30px;
+        border-radius: 50px;
+        margin: 30px 30%;
+    }
+    .faq{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+        gap: 20px;
+        .cart{
+            width: 60%;
+            &-info{
+                margin: 10px;
+            }
+        }
+    }
+}
+@media screen and (max-width:768px){
+    .faq-container{
+        h1{
+            margin:30px 10%;
+            font-size: 20px;
+        }
+    }
+}

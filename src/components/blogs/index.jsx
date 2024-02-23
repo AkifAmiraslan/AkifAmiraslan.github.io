@@ -1,4 +1,4 @@
-
+import { useEffect } from "react";
 import Blog from "./blog";
 import './styles.scss';
 
@@ -24,6 +24,9 @@ function Blogs(){
         return blogs;
     };
     
+    useEffect(() => {
+        window.scroll(0,0)
+    },[])
     return (
         <div className="blogs-container">
             <h1 className="title">

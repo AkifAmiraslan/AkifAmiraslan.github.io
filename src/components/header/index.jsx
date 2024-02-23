@@ -80,7 +80,7 @@ function Header(){
                         Bloqlar
                     </Link>
 
-                    <Link className='link' onClick={toggleMenu}>
+                    <Link to='/contact' className='link' onClick={toggleMenu}>
                         Əlaqə
                     </Link>
                 </div>

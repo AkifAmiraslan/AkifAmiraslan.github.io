@@ -18,7 +18,7 @@ function Welcome(){
                 </p>
                 <img src="https://ed.stanford.edu/sites/default/files/news_images/kinder-small.jpg" alt="" />
             </div>
-            <Link to=''>
+            <Link to='/contact'>
                 <button className="contact-btn">Əlaqə</button>
             </Link>
             
