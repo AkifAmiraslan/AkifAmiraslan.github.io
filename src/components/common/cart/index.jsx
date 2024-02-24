@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
-import plusIcon from '../../assets/images/+icon.svg'
-import close from "../../assets/images/close-menu.svg"
-import './cart.scss'
+import plusIcon from '../../../assets/images/+icon.svg'
+import close from "../../../assets/images/close-menu.svg"
+import './styles.scss'
 function Cart(props){
     const [infoVisible, setInfoVisible] = useState(false);
 

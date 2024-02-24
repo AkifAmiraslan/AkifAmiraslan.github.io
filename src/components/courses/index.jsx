@@ -1,5 +1,5 @@
 import nextRight from '../../assets/images/next-right.svg'
-import Course from '../common/cart';
+import Cart from '../common/cart';
 import coursesData from '../../data/coursesData';
 import './styles.scss'
 import { useEffect } from 'react';
@@ -22,7 +22,7 @@ function Courses(){
             
             <div className='courses'>
                 {coursesData.map((course, index) => (
-                    <Course
+                    <Cart
                         key={index}
                         title={course.title}
                         info="Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet sint quis nam rem reiciendis soluta fugiat sed cum ab in."

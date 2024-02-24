@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import faqData from "../../data/faqData";
-import Cart from '../common/Cart'
+import Cart from '../common/cart'
 import './styles.scss'
 function Faq(){
     useEffect(() => {
